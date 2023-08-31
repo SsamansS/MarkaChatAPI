@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33328.57
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkaChatDB", "MarkaChatDB\MarkaChatDB.csproj", "{82D4A5E5-CD37-44E1-A389-E5B3338A3BF4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkaChatAPI", "MarkaChatAPI\MarkaChatAPI.csproj", "{83D423F1-7816-41FD-8B8B-7BF95AB17AD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkaChatAPI", "MarkaChatAPI\MarkaChatAPI.csproj", "{83D423F1-7816-41FD-8B8B-7BF95AB17AD2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db", "db", "{116BA412-A1FA-4D1D-AEC9-5BD10573A207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkaChatDB", "db\MarkaChatDB\MarkaChatDB.csproj", "{11B9AA79-C139-46E7-AB17-96B504B8C6AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,20 +15,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{82D4A5E5-CD37-44E1-A389-E5B3338A3BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82D4A5E5-CD37-44E1-A389-E5B3338A3BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82D4A5E5-CD37-44E1-A389-E5B3338A3BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82D4A5E5-CD37-44E1-A389-E5B3338A3BF4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{83D423F1-7816-41FD-8B8B-7BF95AB17AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{83D423F1-7816-41FD-8B8B-7BF95AB17AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83D423F1-7816-41FD-8B8B-7BF95AB17AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83D423F1-7816-41FD-8B8B-7BF95AB17AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B9AA79-C139-46E7-AB17-96B504B8C6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B9AA79-C139-46E7-AB17-96B504B8C6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B9AA79-C139-46E7-AB17-96B504B8C6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B9AA79-C139-46E7-AB17-96B504B8C6AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{82D4A5E5-CD37-44E1-A389-E5B3338A3BF4} = {116BA412-A1FA-4D1D-AEC9-5BD10573A207}
+		{11B9AA79-C139-46E7-AB17-96B504B8C6AB} = {116BA412-A1FA-4D1D-AEC9-5BD10573A207}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9557E1CF-C45C-456D-A254-BEEE8D1E5C77}
